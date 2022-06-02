@@ -2,8 +2,10 @@
   <img src="https://cdn-icons-png.flaticon.com/512/714/714024.png" width="128">
   <br>ReDUCKer</br>
 </h1>
-<br> <a href="Тестовое задание DEV Junior.pdf"> Задание </a>
+<a href="Тестовое задание DEV Junior.pdf"> Задание </a>
+<br>
 <br> Результат: Проект находиться в папке reducker </a>
+<br>
 <br>В проекте были иcпользованы:
 <ul>
   <li>Laravel Framework 8.83.15</li>
