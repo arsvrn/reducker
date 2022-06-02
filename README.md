@@ -92,3 +92,5 @@ JS-скрипт запроса
     });
 </script>
 ```
+<img src="web.png">
+<img src="DB.png">
