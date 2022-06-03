@@ -12,6 +12,7 @@
   <li>CSS Framework Bootstrap</li>
   <li>JavaScript library jQuery</li>
   <li>Database MySQL</li>
+  <li>Docker</li>
 </ul>
 <br>Удалось достигнуть:
 <ul>
@@ -19,10 +20,7 @@
   <li>ajax-запрос на сервер и получение уникального короткого URL-адрес</li>
   <li>Короткий URL-адрес отображается на странице как http://127.0.0.1:8000/abCdE</li>
   <li>Посетитель может скопировать короткий URL-адрес и повторить процесс с другой ссылкой</li>
-</ul>
-<br>Не удалось:
-<ul>
-  <li>Завернуть приложение со всеми зависимостями в Docker</li>
+  <li>Завернуть приложение со всеми зависимостями в Docker (<a href="reducker/docker-compose.yml">docker-compose</a>)</li>
 </ul>
 
 Код роутеров:
