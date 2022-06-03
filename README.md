@@ -4,15 +4,15 @@
 </h1>
 <a href="Тестовое задание DEV Junior.pdf"> Задание </a>
 <br>
-<br> Результат: Проект находиться в папке reducker </a>
+<br> Результат: Проект находиться в папке <a href="reducker">reducker</a> </a>
 <br>
 <br>В проекте были иcпользованы:
 <ul>
-  <li>Laravel Framework 8.83.15</li>
-  <li>CSS Framework Bootstrap</li>
-  <li>JavaScript library jQuery</li>
-  <li>Database MySQL</li>
-  <li>Docker</li>
+  <li><a href="https://laravel.com">Laravel</a> framework 8.83.15</li>
+  <li>CSS framework <a href="https://getbootstrap.com">Bootstrap</a></li>
+  <li>JavaScript library <a href="https://jquery.com">jQuery</a></li>
+  <li>Database <a href="https://www.mysql.com">MySQL</a></li>
+  <li><a href="https://www.docker.com">Docker</a></li>
 </ul>
 <br>Удалось достигнуть:
 <ul>
@@ -23,12 +23,12 @@
   <li>Завернуть приложение со всеми зависимостями в Docker (<a href="reducker/docker-compose.yml">docker-compose</a>)</li>
 </ul>
 
-Код роутеров:
+<a href="reducker/routes/web.php">Код роутеров:</a>
 ```PHP
 Route::post('/short', [ShortLinkController::class, 'generate']);
 Route::get('{code}', [ShortLinkController::class, 'linkRedirect']);
 ```
-Код контроллера:
+<a href="reducker/app/Http/Controllers/ShortLinkController.php">Код контроллера:</a>
 ```PHP
 class ShortLinkController
 {
